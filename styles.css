@@ -1,0 +1,82 @@
+body {
+    background-color: #e2e2e2;
+    font-family: sans-serif;
+}
+
+form {
+    background-color: #c2c2c2;
+    padding: 20px 0;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    box-shadow: 0 0 45px 0 #000;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+label {
+    font-size: 22px;
+    margin: 5px 0 5px 20px;
+}
+
+input {
+    background-color: transparent;
+    font-size: 18px;
+    width: 70%;
+    margin-left: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(70, 70, 70);
+    border-radius: 4px;
+}
+
+button {
+    width: 25%;
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #a2a2a2;
+}
+
+button:hover {
+    background-color: #575757;
+    color: #e2e2e2;
+}
+
+#notification {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c2c2c2;
+    color: #000;
+    border-radius: 8px;
+    padding: 10px;
+    width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 0 45px 0 #000;
+    box-sizing: border-box;
+}
+
+#notification.hidden {
+    display: none;
+}
+
+#close-notification {
+    background-color: #a2a2a2;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+#close-notification:hover {
+    background-color: #575757;
+    color: #e2e2e2;
+}
